@@ -20,7 +20,7 @@ class ci_stripe{
     {
         $this->ci = &get_instance();
         
-        \Stripe\Stripe::setApiKey($this->ci->config->item('stripe_secret_key'));
+        \Stripe\Stripe::setApiKey('your_key_here');
     }
 
 
